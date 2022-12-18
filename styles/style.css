@@ -19,6 +19,8 @@
   width: 1200px;
   height: 75px;
   margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 .icon {
   width: 200px;
@@ -27,11 +29,11 @@
 }
 .logo {
   color: #ff7200;
-  font-size: 35px;
+  font-size: 30px;
   font-family: Arial;
-  padding-left: 20px;
+  padding-left: 10px;
   float: left;
-  padding-top: 10px;
+  padding-top: 13px;
 }
 .menu {
   width: 400px;
@@ -76,6 +78,7 @@ ul li a:hover {
   border-right: none;
   font-size: 16px;
   float: left;
+  text-align: center;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
 }
@@ -204,8 +207,35 @@ transition: 0.4s ease;
 .btnl a{
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 .form .link{
     font-family: Arial;
-    f
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+  text-decoration: none;
+  color: #ff7200;
+}
+.liw{
+  padding-top: 15px;
+  padding-bottom: 10px;text-align: center;
+}
+.icon a{
+  text-decoration: none;
+  color: white;
+}
+.icon ion-icon {
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+  
+}
+.icon ion-icon:hover{
+  color: #ff7200;
+
 }
